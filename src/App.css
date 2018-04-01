@@ -26,3 +26,30 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+table {
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 99%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+table th {
+  background-color: #bfbfbf;
+  font-size: 13px;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+}
+
+table td {
+  border-bottom: 1px solid lightgrey;
+  padding: 5px;
+  text-align: left;
+  font-size: 13px;
+}
